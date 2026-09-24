@@ -1,0 +1,11 @@
+# anti-tube
+A video app, driven on the intentioal user-based video consumption
+
+#Product Problem
+Imagine going to a video platform (like YouTube), just to watch a specific video. 
+But you instantly get pulled by recommendation algorithms, suggesting video that might not relate to the issue you came with.
+AntiTube solves this issue by giving you control over the video searching process. No recommendation feeds, just you and search bar!
+
+#Target user/audience
+People who may easily get distracted by algorithms, and who often jump from one thing to the other.
+This webapp allows them to finally put focus back into their control, without worrying about wasting time.
