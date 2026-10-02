@@ -10,7 +10,3 @@ Anti Tube solves this issue by giving you control over the video searching proce
 ## Target user/audience
 People who may easily get distracted by algorithms, and who often jump from one thing to the other.
 This webapp allows them to finally put focus back into their control, without worrying about wasting time.
-
-#Target user/audience
-People who may easily get distracted by algorithms, and who often jump from one thing to the other.
-This webapp allows them to finally put focus back into their control, without worrying about wasting time.
