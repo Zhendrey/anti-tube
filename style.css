@@ -1,0 +1,143 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=Biryani:regular,600,800&display=swap");
+
+/*VARIABLES*/
+:root{
+
+}
+* { padding: 0; margin: 0; border: 0; }
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    min-width: 20rem;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    font-family: "Biryani";
+    font-size: 0.875rem;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;} a{color: inherit;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*COMPONENTS*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: clip;
+}
+
+
+/* STYLE.CSS */
+body
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+}
+
+
+/* Header */
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    margin-block-start: 10px;
+}
+.header__navigation ul.header__icon-list
+{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+/* The search page (<main>) */
+main
+{
+    flex: 1 1 auto;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    max-width: 1024px;
+}
+.search__title
+{
+    font-size: 36px;
+    margin-block-end: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+.search__subtitle
+{
+    font-size: 24px;
+    margin-block-end: 20px;
+    text-align: center;
+}
+
+/* Search form */
+.search__form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+}
+.search__input
+{
+    display: flex;
+    column-gap: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 6px;
+}
+.search__input input
+{
+    background-color: inherit;
+}
+.search__input input::placeholder
+{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+.search__button
+{
+    border-radius: 6px;
+    padding-inline: 10px;
+    aspect-ratio: 12/5;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Footer */
+footer
+{
+    background-color: rgb(10, 10, 10);
+    padding: 24px;
+    text-align: center;
+}
+.app-credit
+{
+    font-style: italic;
+}

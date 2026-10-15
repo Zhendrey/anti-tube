@@ -4,38 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Antitube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="antitube-icon.svg" type="image/x-icon">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <a href="#"><img src="./" alt="Anti-Tube logo" class="header__logo"></img></a>
-            <h2 class="header__title">Anti-Tube</h2>
+            <a class="header__logo" href="#">
+                <img src="./assets/images/antitube-logo.svg" alt="Anti-Tube logo"></img>
+            </a>
             <nav class="header__navigation">
                 <ul class="header__icon-list">
                     <li class="header__icon">
                         <a href="#">
-                            <img src="./" alt="Settings">
+                            <img src="./assets/images/header-settigns.svg" alt="Settings">
                         </a>
                     </li>
                     <li class="header__icon">
                         <a href="#">
-                            <img src="./" alt="User Profile">
+                            <img src="./assets/images/header-user-profile.svg" alt="User Profile">
                         </a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main class="search">
-            <h1 class="search__title">Hello!</h1>
-            <h2 class="search__subtitle">What you're looking for today?</h2>
-            <form class="search__form" action="#" method="get" enctype="multipart/form-data">
-                <img class="search__icon" src="./" alt="Search icon">
-                <input name="input-search" aria-label="A searching input" type="text" placeholder="Type a video name..." class="search__input">
-                <button class="search__button" type="submit">Search video</button>
-            </form>
+            <div class="search__content">
+                <h1 class="search__title">Hello!</h1>
+                <h2 class="search__subtitle">What you're looking for today?</h2>
+                <form class="search__form" action="#" method="get" enctype="multipart/form-data">
+                    <div class="search__input">
+                        <a href="#" class="search__icon"><img src="./assets/images/search-icon.svg" alt="Search icon"></a>
+                        <input name="input-search" aria-label="A searching input" type="text" placeholder="Type a video name...">
+                    </div>
+                    <button class="search__button" type="submit">Search video</button>
+                </form>
+            </div>
         </main>
-        <footer class="app-credit">
-            @2027 Anti-Tube
+        <footer>
+            <span class="app-credit">@2027 Antitube</span>
         </footer>
     </div>
 </body>
