@@ -1,5 +1,5 @@
 # Anti Tube
-### A video app, driven on the intentional user-based video consumption
+### A video app, driven on the intentional user-based consumption
 
 ## Product Problem
 Imagine going to a video platform (like YouTube), just to watch a specific video.
