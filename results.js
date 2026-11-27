@@ -19,4 +19,4 @@ searchInput.addEventListener("input", function(e){
     console.log("Formated: " + formatedValue);
     console.log("Normalized: " + normalizedValue);
     console.log("Formated + Normalized: " + finalValue);
-});v
+});
